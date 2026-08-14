@@ -24,3 +24,4 @@ while attempts>0:
             print(f'\nOnly {attempts} times left. Please try again: ')
         else:
             print('\nSorry 3 times incorrect attempts. Attempts are limited for today.')
+            
