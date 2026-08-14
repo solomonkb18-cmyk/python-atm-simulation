@@ -8,7 +8,7 @@ while attempts>0:
     username = input('\n Enter your username...: ')
     pin = getpass.getpass(f'Enter your 6 digits pin...')
     if username == correct_username and pin==correct_pin:
-        print(f'\n...Hello {correct_username}.')
+        print(f'\nHello {correct_username}.')
         try:
             money=int(input('Enter amount you want: '))
             if money<=balance:
